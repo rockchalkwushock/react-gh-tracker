@@ -1,5 +1,7 @@
 import redux from 'redux';
 import reducers from '../reducers/reducers';
-let createStore = redux.createStore;
+import {createStore} from 'redux';
 
-export const store = createStore(reducers.repositoryReducer);
+let store = createStore(reducers.repositoryReducer);
+
+export default store;
