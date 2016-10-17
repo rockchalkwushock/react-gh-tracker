@@ -1,0 +1,24 @@
+{
+  "name": "react-gh-tracker",
+  "version": "1.0.0",
+  "description": "React Application using Redux to track GitHub Repositories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rockchalkwushock/react-gh-tracker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rockchalkwushock/react-gh-tracker/issues"
+  },
+  "homepage": "https://github.com/rockchalkwushock/react-gh-tracker#readme",
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "redux": "^3.6.0"
+  }
+}
