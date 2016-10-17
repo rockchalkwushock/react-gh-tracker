@@ -1,13 +1,13 @@
-var ADD_REPOSITORY = 'ADD_REPOSITORY';
-var addRepository = function(repository) {
+let ADD_REPOSITORY = 'ADD_REPOSITORY';
+let addRepository = (repository) => {
     return {
         type: ADD_REPOSITORY,
         repository: repository
-    }
+    };
 };
 
-var RATE_REPOSITORY = 'RATE_REPOSITORY';
-var rateRepository = function(repository, rating) {
+let RATE_REPOSITORY = 'RATE_REPOSITORY';
+let rateRepository = (repository, rating) => {
     return {
         type: RATE_REPOSITORY,
         repository: repository,
